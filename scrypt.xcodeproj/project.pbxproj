@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2256AB159DE1985680C46899 /* libPods-scrypt.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D7F9AE424AD778DAFF88E2A /* libPods-scrypt.a */; };
 		8102F5BE211DEF220032DF60 /* Scrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8102F5BC211DEF220032DF60 /* Scrypt.swift */; };
 		813247A72163812C006BC789 /* PointerArithmeticsImplimentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813247A62163812C006BC789 /* PointerArithmeticsImplimentation.swift */; };
 		813247BF2163AC08006BC789 /* scrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FECFA8211B3359006DA367 /* scrypt.framework */; };
@@ -16,8 +15,9 @@
 		81FECFB2211B335A006DA367 /* scrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81FECFA8211B3359006DA367 /* scrypt.framework */; };
 		81FECFB7211B335A006DA367 /* scryptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FECFB6211B335A006DA367 /* scryptTests.swift */; };
 		81FECFB9211B335A006DA367 /* scrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 81FECFAB211B3359006DA367 /* scrypt.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B47686568711B474C53D9EF0 /* libPods-scryptTestsPerf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 613166C013A424D75850B99D /* libPods-scryptTestsPerf.a */; };
-		BAC96A728CF69A8FCC6A27A2 /* libPods-scryptTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 649171886E069813A80FCAAB /* libPods-scryptTests.a */; };
+		9C8D7F3ED398F54CB6CB0450 /* Pods_scrypt_scryptTestsPerf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 143128B9D01E25FB488DEFB1 /* Pods_scrypt_scryptTestsPerf.framework */; };
+		C3A23C6AC7707251F723FDFF /* Pods_scrypt_scryptTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999BF11E38D5665C0B42EBC1 /* Pods_scrypt_scryptTests.framework */; };
+		C41747C6E2FA002E1DECDD81 /* Pods_scrypt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76BD0D392A1AC2402B95F550 /* Pods_scrypt.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,13 +39,15 @@
 
 /* Begin PBXFileReference section */
 		0C6E35314DE1C8A04C040DD2 /* Pods-scrypt-cryptoswiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrypt-cryptoswiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-scrypt-cryptoswiftTests/Pods-scrypt-cryptoswiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		143128B9D01E25FB488DEFB1 /* Pods_scrypt_scryptTestsPerf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrypt_scryptTestsPerf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		198C82CD31A0514E3CB5ADC4 /* Pods-scrypt-cryptoswiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrypt-cryptoswiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scrypt-cryptoswiftTests/Pods-scrypt-cryptoswiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1DFB24275239BA96B04AE9BF /* Pods-scrypt-cryptoswift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrypt-cryptoswift.release.xcconfig"; path = "Pods/Target Support Files/Pods-scrypt-cryptoswift/Pods-scrypt-cryptoswift.release.xcconfig"; sourceTree = "<group>"; };
 		1F8ED4EA51EBB864A60E3E0A /* Pods-scrypt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrypt.release.xcconfig"; path = "Pods/Target Support Files/Pods-scrypt/Pods-scrypt.release.xcconfig"; sourceTree = "<group>"; };
 		438FC54D2DCF60C3602E5A00 /* libPods-scrypt-cryptoswiftTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-scrypt-cryptoswiftTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		613166C013A424D75850B99D /* libPods-scryptTestsPerf.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-scryptTestsPerf.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		649171886E069813A80FCAAB /* libPods-scryptTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-scryptTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D7F9AE424AD778DAFF88E2A /* libPods-scrypt.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-scrypt.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		57F744539A555E7E0CB20922 /* Pods-scrypt-scryptTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrypt-scryptTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-scrypt-scryptTests/Pods-scrypt-scryptTests.release.xcconfig"; sourceTree = "<group>"; };
+		6A50AE1CC91E0E9A12C4F9B2 /* Pods-scrypt-scryptTestsPerf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrypt-scryptTestsPerf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scrypt-scryptTestsPerf/Pods-scrypt-scryptTestsPerf.debug.xcconfig"; sourceTree = "<group>"; };
+		76BD0D392A1AC2402B95F550 /* Pods_scrypt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrypt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		77793E3C3FDFC10C00397CC5 /* Pods-scrypt-scryptTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrypt-scryptTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scrypt-scryptTests/Pods-scrypt-scryptTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8102F5BC211DEF220032DF60 /* Scrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scrypt.swift; sourceTree = "<group>"; };
 		813247A62163812C006BC789 /* PointerArithmeticsImplimentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointerArithmeticsImplimentation.swift; sourceTree = "<group>"; };
 		813247B42163AB6F006BC789 /* scryptPerfTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scryptPerfTests.swift; sourceTree = "<group>"; };
@@ -61,9 +63,11 @@
 		81FECFB6211B335A006DA367 /* scryptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scryptTests.swift; sourceTree = "<group>"; };
 		81FECFB8211B335A006DA367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9965154360161CF1FBF1769C /* Pods-scrypt-cryptoswift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrypt-cryptoswift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scrypt-cryptoswift/Pods-scrypt-cryptoswift.debug.xcconfig"; sourceTree = "<group>"; };
+		999BF11E38D5665C0B42EBC1 /* Pods_scrypt_scryptTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_scrypt_scryptTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6C7C18911FF5ED16DF48F15 /* Pods-scryptTestsPerf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scryptTestsPerf.release.xcconfig"; path = "Pods/Target Support Files/Pods-scryptTestsPerf/Pods-scryptTestsPerf.release.xcconfig"; sourceTree = "<group>"; };
 		B1DB33FC12A9A469DBDCDCE7 /* Pods-scryptTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scryptTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-scryptTests/Pods-scryptTests.release.xcconfig"; sourceTree = "<group>"; };
 		C93458444A093A80750A9290 /* Pods-scryptTestsPerf.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scryptTestsPerf.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scryptTestsPerf/Pods-scryptTestsPerf.debug.xcconfig"; sourceTree = "<group>"; };
+		D0548CA35D2325580709984E /* Pods-scrypt-scryptTestsPerf.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrypt-scryptTestsPerf.release.xcconfig"; path = "Pods/Target Support Files/Pods-scrypt-scryptTestsPerf/Pods-scrypt-scryptTestsPerf.release.xcconfig"; sourceTree = "<group>"; };
 		D836FC707B9C81302BE10E9A /* Pods-scrypt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scrypt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scrypt/Pods-scrypt.debug.xcconfig"; sourceTree = "<group>"; };
 		F1D37377D98D842ACD3E96D8 /* Pods-scryptTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-scryptTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-scryptTests/Pods-scryptTests.debug.xcconfig"; sourceTree = "<group>"; };
 		F5BBDCDB9F34B7CB02C2E00E /* libPods-scrypt-cryptoswift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-scrypt-cryptoswift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,7 +79,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				813247BF2163AC08006BC789 /* scrypt.framework in Frameworks */,
-				B47686568711B474C53D9EF0 /* libPods-scryptTestsPerf.a in Frameworks */,
+				9C8D7F3ED398F54CB6CB0450 /* Pods_scrypt_scryptTestsPerf.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2256AB159DE1985680C46899 /* libPods-scrypt.a in Frameworks */,
+				C41747C6E2FA002E1DECDD81 /* Pods_scrypt.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +96,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81FECFB2211B335A006DA367 /* scrypt.framework in Frameworks */,
-				BAC96A728CF69A8FCC6A27A2 /* libPods-scryptTests.a in Frameworks */,
+				C3A23C6AC7707251F723FDFF /* Pods_scrypt_scryptTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +116,10 @@
 				B1DB33FC12A9A469DBDCDCE7 /* Pods-scryptTests.release.xcconfig */,
 				C93458444A093A80750A9290 /* Pods-scryptTestsPerf.debug.xcconfig */,
 				A6C7C18911FF5ED16DF48F15 /* Pods-scryptTestsPerf.release.xcconfig */,
+				77793E3C3FDFC10C00397CC5 /* Pods-scrypt-scryptTests.debug.xcconfig */,
+				57F744539A555E7E0CB20922 /* Pods-scrypt-scryptTests.release.xcconfig */,
+				6A50AE1CC91E0E9A12C4F9B2 /* Pods-scrypt-scryptTestsPerf.debug.xcconfig */,
+				D0548CA35D2325580709984E /* Pods-scrypt-scryptTestsPerf.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -121,9 +129,9 @@
 			children = (
 				F5BBDCDB9F34B7CB02C2E00E /* libPods-scrypt-cryptoswift.a */,
 				438FC54D2DCF60C3602E5A00 /* libPods-scrypt-cryptoswiftTests.a */,
-				7D7F9AE424AD778DAFF88E2A /* libPods-scrypt.a */,
-				649171886E069813A80FCAAB /* libPods-scryptTests.a */,
-				613166C013A424D75850B99D /* libPods-scryptTestsPerf.a */,
+				76BD0D392A1AC2402B95F550 /* Pods_scrypt.framework */,
+				999BF11E38D5665C0B42EBC1 /* Pods_scrypt_scryptTests.framework */,
+				143128B9D01E25FB488DEFB1 /* Pods_scrypt_scryptTestsPerf.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 				813247B62163AC08006BC789 /* Sources */,
 				813247B72163AC08006BC789 /* Frameworks */,
 				813247B82163AC08006BC789 /* Resources */,
+				A3BC1DFD6DFE9E5E10CCB9F0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -258,6 +267,7 @@
 				81FECFAD211B335A006DA367 /* Sources */,
 				81FECFAE211B335A006DA367 /* Frameworks */,
 				81FECFAF211B335A006DA367 /* Resources */,
+				9A6A3016C3A612CB1F78BA69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -350,11 +360,28 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-scryptTestsPerf-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-scrypt-scryptTestsPerf-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9A6A3016C3A612CB1F78BA69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-scrypt-scryptTests/Pods-scrypt-scryptTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-scrypt-scryptTests/Pods-scrypt-scryptTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-scrypt-scryptTests/Pods-scrypt-scryptTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A16D5C4ECB13ACEAD86BD358 /* [CP] Check Pods Manifest.lock */ = {
@@ -368,11 +395,28 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-scryptTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-scrypt-scryptTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A3BC1DFD6DFE9E5E10CCB9F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-scrypt-scryptTestsPerf/Pods-scrypt-scryptTestsPerf-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-scrypt-scryptTestsPerf/Pods-scrypt-scryptTestsPerf-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-scrypt-scryptTestsPerf/Pods-scrypt-scryptTestsPerf-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C7B552B6B29F943AFD605CA5 /* [CP] Check Pods Manifest.lock */ = {
@@ -440,7 +484,7 @@
 /* Begin XCBuildConfiguration section */
 		813247C32163AC08006BC789 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C93458444A093A80750A9290 /* Pods-scryptTestsPerf.debug.xcconfig */;
+			baseConfigurationReference = 6A50AE1CC91E0E9A12C4F9B2 /* Pods-scrypt-scryptTestsPerf.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -462,7 +506,7 @@
 		};
 		813247C42163AC08006BC789 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A6C7C18911FF5ED16DF48F15 /* Pods-scryptTestsPerf.release.xcconfig */;
+			baseConfigurationReference = D0548CA35D2325580709984E /* Pods-scrypt-scryptTestsPerf.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -621,6 +665,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.shamatar.scrypt-cryptoswift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -652,6 +697,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.shamatar.scrypt-cryptoswift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -663,7 +709,7 @@
 		};
 		81FECFC0211B335A006DA367 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F1D37377D98D842ACD3E96D8 /* Pods-scryptTests.debug.xcconfig */;
+			baseConfigurationReference = 77793E3C3FDFC10C00397CC5 /* Pods-scrypt-scryptTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -683,7 +729,7 @@
 		};
 		81FECFC1211B335A006DA367 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B1DB33FC12A9A469DBDCDCE7 /* Pods-scryptTests.release.xcconfig */;
+			baseConfigurationReference = 57F744539A555E7E0CB20922 /* Pods-scrypt-scryptTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

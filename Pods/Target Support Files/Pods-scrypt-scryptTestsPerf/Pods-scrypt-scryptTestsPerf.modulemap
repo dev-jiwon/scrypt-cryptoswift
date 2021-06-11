@@ -1,0 +1,6 @@
+framework module Pods_scrypt_scryptTestsPerf {
+  umbrella header "Pods-scrypt-scryptTestsPerf-umbrella.h"
+
+  export *
+  module * { export * }
+}

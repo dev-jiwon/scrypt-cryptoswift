@@ -1,20 +1,17 @@
-def import_pods
-  pod 'CryptoSwift', '~> 0.12'
-end
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
 
 target 'scrypt' do
-  platform :osx, '10.11'
-#  use_frameworks!
-  use_modular_headers!
-  import_pods
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+  pod 'CryptoSwift', '~> 1.4'
+  # Pods for scrypt
 
   target 'scryptTests' do
-    inherit! :search_paths
     # Pods for testing
   end
 
   target 'scryptTestsPerf' do
-    inherit! :search_paths
     # Pods for testing
   end
 

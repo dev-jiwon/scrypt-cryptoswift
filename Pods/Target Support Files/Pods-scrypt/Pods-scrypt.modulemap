@@ -1,4 +1,4 @@
-module Pods_scrypt {
+framework module Pods_scrypt {
   umbrella header "Pods-scrypt-umbrella.h"
 
   export *

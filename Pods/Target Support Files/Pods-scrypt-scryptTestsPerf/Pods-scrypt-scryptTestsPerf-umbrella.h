@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_scryptTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_scryptTestsVersionString[];
+FOUNDATION_EXPORT double Pods_scrypt_scryptTestsPerfVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_scrypt_scryptTestsPerfVersionString[];
 
